@@ -5,6 +5,11 @@ const plugin = axios.create({
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/7307/storyboard/8491/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
+const plugin = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/7307/storyboard/8491/",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const newConnectorbnbn = axios.create({
   baseURL:
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/15779/storyboard/15055/",
