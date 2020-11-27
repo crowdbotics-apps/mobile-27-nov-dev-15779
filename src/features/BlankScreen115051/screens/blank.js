@@ -33,6 +33,7 @@ export default class Blank extends React.Component {
         value={this.state.Switch_2}
         onValueChange={nextChecked => this.setState({ Switch_2: nextChecked })}
       />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -42,6 +43,10 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  Switch_2: { alignSelf: "flex-start" }
+  Switch_2: { alignSelf: "flex-start" },
+  View_1: {},
+  Switch_2: { alignSelf: "flex-start" },
+  Button_3: {}
 })
