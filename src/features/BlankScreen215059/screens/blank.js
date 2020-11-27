@@ -33,6 +33,7 @@ export default class Blank extends React.Component {
             "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/1_DtiIX70.jpg"
         }}
       />
+      <Text>Sample text content</Text>
     </View>
   )
 }
@@ -42,6 +43,10 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  Image_2: {}
+  Image_2: {},
+  View_1: {},
+  Image_2: {},
+  Text_3: {}
 })
