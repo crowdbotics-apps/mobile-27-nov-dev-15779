@@ -41,6 +41,17 @@ class CustomText(models.Model):
     def field(self):
         return "title"
 
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
 
 class HomePage(models.Model):
     body = models.TextField()
@@ -60,3 +71,16 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
+
+
+class Dddsfd(models.Model):
+    "Generated Model"
+    fgfdhfghgjf = models.BigIntegerField()
