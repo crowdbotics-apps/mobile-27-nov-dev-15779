@@ -37,12 +37,14 @@ export default class Blank extends React.Component {
       <TextInput
         placeholder="Number Input Placeholder"
         keyboardType="numeric"
+        style={styles.TextInput_3}
         value={this.state.TextInput_3}
         onChangeText={nextValue => this.setState({ TextInput_3: nextValue })}
       />
       <TextInput
         placeholder="Sample text input placeholder"
         multiline={true}
+        style={styles.TextInput_4}
         value={this.state.TextInput_4}
         onChangeText={nextValue => this.setState({ TextInput_4: nextValue })}
       />
@@ -72,10 +74,18 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_2: {},
   TextInput_3: {},
   TextInput_4: {},
+  TextInput_5: {},
+  CheckBox_6: {},
+  CheckBox_7: {},
+  View_1: {},
+  Text_2: {},
+  TextInput_3: { textAlign: "right" },
+  TextInput_4: { height: 100 },
   TextInput_5: {},
   CheckBox_6: {},
   CheckBox_7: {}
