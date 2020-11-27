@@ -34,6 +34,30 @@ export default class Blank extends React.Component {
         }}
         style={styles.Image_2}
       />
+      <View>
+        <View />
+        <View />
+      </View>
+      <View>
+        <View />
+        <View />
+      </View>
+      <View>
+        <View />
+        <View />
+      </View>
+      <View>
+        <View />
+        <View />
+      </View>
+      <View>
+        <View />
+        <View />
+      </View>
+      <View>
+        <View />
+        <View />
+      </View>
     </View>
   )
 }
@@ -47,5 +71,25 @@ const styles = StyleSheet.create({
   View_1: {},
   Image_2: {},
   View_1: {},
-  Image_2: { alignSelf: "center" }
+  Image_2: { alignSelf: "center" },
+  View_1: {},
+  Image_2: { alignSelf: "center" },
+  View_3: {},
+  View_4: {},
+  View_5: {},
+  View_6: {},
+  View_4: {},
+  View_5: {},
+  View_7: {},
+  View_4: {},
+  View_5: {},
+  View_8: {},
+  View_4: {},
+  View_5: {},
+  View_9: {},
+  View_4: {},
+  View_5: {},
+  View_10: {},
+  View_4: {},
+  View_5: {}
 })
