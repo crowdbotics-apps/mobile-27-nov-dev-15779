@@ -1,4 +1,14 @@
 import axios from "axios"
+import { NEW_CONNECTOR_BNBN_TOKEN } from "react-native-dotenv"
+const newConnectorbnbn = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/15779/storyboard/15055/",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${NEW_CONNECTOR_BNBN_TOKEN}`
+  }
+})
 const mobilenovAPI = axios.create({
   baseURL: "https://mobile-27-nov-dev-15779.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
