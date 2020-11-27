@@ -6,17 +6,17 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0004_dddsfd'),
+        ("home", "0004_dddsfd"),
     ]
 
     operations = [
         migrations.RenameField(
-            model_name='customtext',
-            old_name='hfghfghgh',
-            new_name='hg',
+            model_name="customtext",
+            old_name="hfghfghgh",
+            new_name="hg",
         ),
         migrations.RemoveField(
-            model_name='customtext',
-            name='title',
+            model_name="customtext",
+            name="title",
         ),
     ]
